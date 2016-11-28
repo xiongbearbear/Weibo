@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		C86430D61DEC385B00621FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86430D51DEC385B00621FE6 /* AppDelegate.swift */; };
-		C86430D81DEC385B00621FE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86430D71DEC385B00621FE6 /* ViewController.swift */; };
-		C86430DB1DEC385B00621FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86430D91DEC385B00621FE6 /* Main.storyboard */; };
 		C86430DD1DEC385B00621FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C86430DC1DEC385B00621FE6 /* Assets.xcassets */; };
-		C86430E01DEC385B00621FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86430DE1DEC385B00621FE6 /* LaunchScreen.storyboard */; };
+		C8BE019C1DEC582500C99711 /* XBBMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BE019B1DEC582500C99711 /* XBBMainViewController.swift */; };
+		C8BE019E1DEC586000C99711 /* XBBNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BE019D1DEC586000C99711 /* XBBNavigationController.swift */; };
+		C8BE01A01DEC588200C99711 /* XBBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BE019F1DEC588200C99711 /* XBBBaseViewController.swift */; };
+		C8BE01A21DEC58B400C99711 /* XBBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BE01A11DEC58B400C99711 /* XBBHomeViewController.swift */; };
+		C8BE01A41DEC58C700C99711 /* XBBMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BE01A31DEC58C700C99711 /* XBBMessageViewController.swift */; };
+		C8BE01A61DEC58D500C99711 /* XBBDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BE01A51DEC58D500C99711 /* XBBDiscoverViewController.swift */; };
+		C8BE01A81DEC58E000C99711 /* XBBProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BE01A71DEC58E000C99711 /* XBBProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C86430D21DEC385B00621FE6 /* Weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86430D51DEC385B00621FE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C86430D71DEC385B00621FE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C86430DA1DEC385B00621FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C86430DC1DEC385B00621FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C86430DF1DEC385B00621FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C86430E11DEC385B00621FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8BE019B1DEC582500C99711 /* XBBMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XBBMainViewController.swift; sourceTree = "<group>"; };
+		C8BE019D1DEC586000C99711 /* XBBNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XBBNavigationController.swift; sourceTree = "<group>"; };
+		C8BE019F1DEC588200C99711 /* XBBBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XBBBaseViewController.swift; sourceTree = "<group>"; };
+		C8BE01A11DEC58B400C99711 /* XBBHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XBBHomeViewController.swift; sourceTree = "<group>"; };
+		C8BE01A31DEC58C700C99711 /* XBBMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XBBMessageViewController.swift; sourceTree = "<group>"; };
+		C8BE01A51DEC58D500C99711 /* XBBDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XBBDiscoverViewController.swift; sourceTree = "<group>"; };
+		C8BE01A71DEC58E000C99711 /* XBBProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XBBProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +63,105 @@
 			isa = PBXGroup;
 			children = (
 				C86430D51DEC385B00621FE6 /* AppDelegate.swift */,
-				C86430D71DEC385B00621FE6 /* ViewController.swift */,
-				C86430D91DEC385B00621FE6 /* Main.storyboard */,
+				C8BE01901DEC562E00C99711 /* Classes */,
 				C86430DC1DEC385B00621FE6 /* Assets.xcassets */,
-				C86430DE1DEC385B00621FE6 /* LaunchScreen.storyboard */,
 				C86430E11DEC385B00621FE6 /* Info.plist */,
 			);
 			path = Weibo;
+			sourceTree = "<group>";
+		};
+		C8BE01901DEC562E00C99711 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C8BE01931DEC562E00C99711 /* View */,
+				C8BE01941DEC562E00C99711 /* ViewModel */,
+				C8BE01911DEC562E00C99711 /* Model */,
+				C8BE01921DEC562E00C99711 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C8BE01911DEC562E00C99711 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C8BE01921DEC562E00C99711 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C8BE01931DEC562E00C99711 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C8BE01981DEC57B100C99711 /* Main */,
+				C8BE01971DEC57B100C99711 /* Home */,
+				C8BE01991DEC57B100C99711 /* Message */,
+				C8BE01961DEC57B100C99711 /* Discover */,
+				C8BE019A1DEC57B100C99711 /* Profile */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C8BE01941DEC562E00C99711 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C8BE01951DEC562E00C99711 /* 未命名文件夹 */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C8BE01951DEC562E00C99711 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		C8BE01961DEC57B100C99711 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				C8BE01A51DEC58D500C99711 /* XBBDiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		C8BE01971DEC57B100C99711 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C8BE01A11DEC58B400C99711 /* XBBHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C8BE01981DEC57B100C99711 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C8BE019B1DEC582500C99711 /* XBBMainViewController.swift */,
+				C8BE019D1DEC586000C99711 /* XBBNavigationController.swift */,
+				C8BE019F1DEC588200C99711 /* XBBBaseViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C8BE01991DEC57B100C99711 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				C8BE01A31DEC58C700C99711 /* XBBMessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		C8BE019A1DEC57B100C99711 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C8BE01A71DEC58E000C99711 /* XBBProfileViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +190,7 @@
 		C86430CA1DEC385B00621FE6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XBB;
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = xiong;
@@ -124,9 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C86430E01DEC385B00621FE6 /* LaunchScreen.storyboard in Resources */,
 				C86430DD1DEC385B00621FE6 /* Assets.xcassets in Resources */,
-				C86430DB1DEC385B00621FE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,31 +236,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C86430D81DEC385B00621FE6 /* ViewController.swift in Sources */,
+				C8BE01A01DEC588200C99711 /* XBBBaseViewController.swift in Sources */,
+				C8BE019C1DEC582500C99711 /* XBBMainViewController.swift in Sources */,
+				C8BE01A21DEC58B400C99711 /* XBBHomeViewController.swift in Sources */,
 				C86430D61DEC385B00621FE6 /* AppDelegate.swift in Sources */,
+				C8BE01A61DEC58D500C99711 /* XBBDiscoverViewController.swift in Sources */,
+				C8BE01A81DEC58E000C99711 /* XBBProfileViewController.swift in Sources */,
+				C8BE019E1DEC586000C99711 /* XBBNavigationController.swift in Sources */,
+				C8BE01A41DEC58C700C99711 /* XBBMessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C86430D91DEC385B00621FE6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C86430DA1DEC385B00621FE6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C86430DE1DEC385B00621FE6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C86430DF1DEC385B00621FE6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C86430E21DEC385B00621FE6 /* Debug */ = {
@@ -259,8 +345,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = C7295GZV7F;
 				INFOPLIST_FILE = Weibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bearbearxiong.Weibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,8 +360,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = C7295GZV7F;
 				INFOPLIST_FILE = Weibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bearbearxiong.Weibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +390,7 @@
 				C86430E61DEC385B00621FE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
