@@ -30,6 +30,7 @@ class XBBBaseViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        loadData()
     }
     
     
@@ -41,6 +42,12 @@ class XBBBaseViewController: UIViewController{
         }
     }
 
+    // 加载数据 - 具体的实验由子类负责
+    func loadData(){
+    
+    }
+    
+    
 }
 
 // MARK: - 设置界面
