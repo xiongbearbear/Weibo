@@ -13,6 +13,7 @@ import UIKit
 class XBBMainViewController: UITabBarController {
     
     lazy var composeButton:UIButton = UIButton.cz_imageButton("tabbar_compose_icon_add", backgroundImageName: "tabbar_compose_button")
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +21,18 @@ class XBBMainViewController: UITabBarController {
         setupChildControllers()
         setupComposeButton()
     }
-
-
+    /**
+         portrait : 竖屏:肖像
+         landscape: 横屏:风景画
+         
+         - 使用代码控制设备的方向,好处:需要的时候改变屏幕方向的时候单独处理!
+         - 设置支持的方向之后,当前的控制器及自控制器都会遵循这个方向!
+         - 如果播放视频,通常是通过 modal 展现的!
+     */
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
+    
 
     
 }
@@ -56,6 +67,12 @@ extension XBBMainViewController {
     // 撰写微博 FIXME:没有实现
     @objc private func composeStatus() {
         print("撰写微博")
+          
+        // 测试方向旋转
+        let vc = UIViewController()
+        let nav = UINavigationController(rootViewController: vc)
+        vc.view.backgroundColor = UIColor.cz_random()
+        present(nav, animated: true, completion: nil)
         
     }
     

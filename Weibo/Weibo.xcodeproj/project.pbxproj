@@ -115,6 +115,15 @@
 			path = Weibo;
 			sourceTree = "<group>";
 		};
+		C885EDDA1DF0094E006C7447 /* 主控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				C8BE019D1DEC586000C99711 /* XBBNavigationController.swift */,
+				C8BE019B1DEC582500C99711 /* XBBMainViewController.swift */,
+			);
+			name = "主控制器";
+			sourceTree = "<group>";
+		};
 		C8BE01901DEC562E00C99711 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,8 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				C8D65FCD1DED5D4E00B50E77 /* 测试 */,
-				C8BE019B1DEC582500C99711 /* XBBMainViewController.swift */,
-				C8BE019D1DEC586000C99711 /* XBBNavigationController.swift */,
+				C885EDDA1DF0094E006C7447 /* 主控制器 */,
 				C8BE019F1DEC588200C99711 /* XBBBaseViewController.swift */,
 			);
 			path = Main;
