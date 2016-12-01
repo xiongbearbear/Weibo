@@ -31,6 +31,7 @@ class XBBBaseViewController: UIViewController{
         super.viewDidLoad()
         setupUI()
         loadData()
+        
     }
     
     
@@ -55,6 +56,10 @@ extension XBBBaseViewController{
     
     func setupUI(){
         view.backgroundColor = UIColor.cz_random()
+        
+        // 取消自动缩进 - 如果隐藏了导航栏,会缩进 20 个点
+        automaticallyAdjustsScrollViewInsets = false
+        
         setupNavigationBar()
         setupTableView()
     }
@@ -67,6 +72,10 @@ extension XBBBaseViewController{
         // 设置数据源&代理 -> 目的:子类直接实现数据方法
         tableView?.delegate = self
         tableView?.dataSource = self
+        tableView?.contentInset = UIEdgeInsets(top: navigationBar.bounds.height,
+                                               left: 0,
+                                               bottom: tabBarController?.tabBar.bounds.height ?? 49,
+                                               right: 0)
         
     }
     
